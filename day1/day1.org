@@ -1,0 +1,37 @@
+#+title: Day1
+
+- chasing *chief historian*
+  - *senior historians* are searching him
+  - must be in one of 50 locations
+  - get 1 star per puzzle
+- checking locations
+  - marking visited locations with a star
+  - empty list of locations
+
+- historically significant locations are named by *locationID*
+
+- puzzle input
+  - 2 lists with numbers
+    #+begin_example
+    3   4
+    4   3
+    2   5
+    1   3
+    3   9
+    3   3
+    #+end_example
+
+- pair up numbers of the list in ascending order
+  - smallest left with smallest right
+  - second smallest left with second smallest right
+- figure out distance between the 2 numbers
+  - from the example
+    #+begin_example
+    1   3   ->  2
+    2   3   ->  1
+    3   3   ->  0
+    3   4   ->  1
+    3   5   ->  2
+    4   9   ->  5
+    #+end_example
+  - the sum is 11
