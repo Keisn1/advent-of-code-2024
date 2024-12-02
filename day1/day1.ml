@@ -11,7 +11,7 @@ let read_file filename =
   read_lines_rec chan []
 
 let (left_nbrs, right_nbrs) =
-  "input"
+  "input_simple"
   |> read_file
   |> List.map (String.split_on_char ' ')
   |> List.map (List.filter (fun s -> String.length s > 0))
