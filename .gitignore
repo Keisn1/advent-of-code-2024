@@ -1,3 +1,7 @@
 /day2/*.cmi
 *.cmo
 *.out
+/day3/day3.cmi
+/advent_of_code_2024/
+!/advent_of_code_2024/
+/advent_of_code_2024/_build
